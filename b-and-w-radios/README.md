@@ -1,10 +1,10 @@
 ---
-description: UNDER CONSTRUCTION
+description: UNDER UPPBYGGNAD
 ---
 
 # 🚧 B & W Radios
 
-EdgeTX supports the following black & white screen radios:
+EdgeTX stödjer följande radior med svartvita skärmar:
 
 * BETAFPV LiteRadio 3 Pro
 * FrSky QX7 / QX7S / QX7 ACCESS / QX7S ACCESS
