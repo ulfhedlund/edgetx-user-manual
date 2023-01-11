@@ -1,6 +1,6 @@
 ---
-description: Coming Soon!
+description: Kommer snart
 ---
 
-# 🚧 Companion User Manual
+# 🚧 Companion användarmanual
 
