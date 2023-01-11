@@ -2,9 +2,9 @@
 beskrivning: UNDER UPPBYGGNAD
 ---
 
-# 🚧 Radior med svartvita skärmar
+# 🚧 Sändare med svartvita skärmar
 
-EdgeTX stödjer följande radior med svartvita skärmar:
+EdgeTX stödjer följande sändare med svartvita skärmar:
 
 * BETAFPV LiteRadio 3 Pro
 * FrSky QX7 / QX7S / QX7 ACCESS / QX7S ACCESS
