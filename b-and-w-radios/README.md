@@ -1,8 +1,8 @@
 ---
-description: UNDER UPPBYGGNAD
+beskrivning: UNDER UPPBYGGNAD
 ---
 
-# 🚧 B & W Radios
+# 🚧 Svartvita radior
 
 EdgeTX stödjer följande radior med svartvita skärmar:
 
