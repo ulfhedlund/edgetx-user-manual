@@ -2,7 +2,6 @@
 
 <figure><img src="../../.gitbook/assets/colorradios.jpg" alt=""><figcaption><p>Sändare med färgskärm som stöds av EdgeTX</p></figcaption></figure>
 
-
 EdgeTX stödjer följande sändare med färgskärm:
 
 * FlySky NV14 / EL18
