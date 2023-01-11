@@ -1,8 +1,8 @@
-# User Manual for Color Screen Radios
+# Användarmanuel för sändare med färgskärm
 
-<figure><img src="../../.gitbook/assets/colorradios.jpg" alt=""><figcaption><p>EdgeTX supported color radios</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/colorradios.jpg" alt=""><figcaption><p>Sändare med färgskärm som stöds av EdgeTX</p></figcaption></figure>
 
-EdgeTX supports the following color screen radios:
+EdgeTX stödjer följande sändare med färgskärm:
 
 * FlySky NV14 / EL18
 * FrSky X10 / X10S / X10 Express / X10S Express
