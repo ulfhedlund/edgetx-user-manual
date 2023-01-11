@@ -2,7 +2,7 @@
 beskrivning: UNDER UPPBYGGNAD
 ---
 
-# 🚧 Svartvita radior
+# 🚧 Radior med svartvita skärmar
 
 EdgeTX stödjer följande radior med svartvita skärmar:
 
