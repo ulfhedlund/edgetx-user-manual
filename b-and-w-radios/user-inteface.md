@@ -1,2 +1,2 @@
-# 🚧 User Inteface
+# 🚧 Användargränssnitt
 
