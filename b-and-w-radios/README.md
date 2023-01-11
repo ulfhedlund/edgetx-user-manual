@@ -1,5 +1,5 @@
 ---
-beskrivning: UNDER UPPBYGGNAD
+description: UNDER UPPBYGGNAD
 ---
 
 # 🚧 Sändare med svartvita skärmar
