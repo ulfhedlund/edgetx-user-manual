@@ -2,7 +2,7 @@
 
 <figure><img src=".gitbook/assets/cover1.jpg" alt=""><figcaption><p>EdgeTX</p></figcaption></figure>
 
-Syftet med denna användamanual är att samla information från the community avseende installation, konfiguration och användning av EdgeTX. Målet är att vara din "one-stop shop" för all möjlig information relaterat till EdgeTX. Manualen är uppdelad i följande områden:
+Syftet med denna användamanual är att samla information från olika intressegrupper avseende installation, konfiguration och användning av EdgeTX. Målet är att vara din "one-stop shop" för all möjlig information relaterat till EdgeTX. Manualen är uppdelad i följande områden:
 
 ### EdgeTX användarmanual
 
@@ -20,7 +20,7 @@ The EdgeTX Companion User Guide will cover the different features and functions 
 
 This section of the knowledge base will contain links to additional resources that EdgeTX users may find useful. The external pages that are linked here are not maintained by EdgeTX. However, they are listed as they may be useful sources of additional information relating to EdgeTX.
 
-### Special thanks to those that contributed to this knowledge base either directly or indirectly.
+### Ett speciellt tack till de som bidragit till denna kunskapsbank, antingen direkt eller indirekt.
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
 
