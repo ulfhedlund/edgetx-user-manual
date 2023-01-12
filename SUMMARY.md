@@ -47,7 +47,7 @@
 ***
 
 * [🚧 B & W Radios](b-and-w-radios/README.md)
-  * [🚧 User Inteface](b-and-w-radios/user-inteface.md)
+  * [🚧 Användargränssnitt](b-and-w-radios/user-inteface.md)
 
 ## EdgeTX: How-To
 
