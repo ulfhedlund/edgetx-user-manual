@@ -46,7 +46,7 @@
 
 ***
 
-* [🚧 B & W Radios](b-and-w-radios/README.md)
+* [🚧 Sändare med svartvita skärmar](b-and-w-radios/README.md)
   * [🚧 Användargränssnitt](b-and-w-radios/user-inteface.md)
 
 ## EdgeTX: How-To
