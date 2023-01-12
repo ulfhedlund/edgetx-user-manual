@@ -20,7 +20,7 @@ The EdgeTX Companion User Guide will cover the different features and functions 
 
 This section of the knowledge base will contain links to additional resources that EdgeTX users may find useful. The external pages that are linked here are not maintained by EdgeTX. However, they are listed as they may be useful sources of additional information relating to EdgeTX.
 
-### Ett speciellt tack till de som bidragit till denna kunskapsbank, antingen direkt eller indirekt.
+### Ett särskilt tack till de som bidragit till denna kunskapsbank, antingen direkt eller indirekt.
 
 See the [Contributors ](more/contributors.md)section for a list of direct and indirect contributors.
 
