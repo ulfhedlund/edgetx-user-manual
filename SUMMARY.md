@@ -57,7 +57,7 @@
 
 ## EdgeTX Companion
 
-* [🚧 Companion User Manual](edgetx-companion/companion-user-manual.md)
+* [🚧 Companion användarmanual](edgetx-companion/companion-user-manual.md)
 
 ## More
 
