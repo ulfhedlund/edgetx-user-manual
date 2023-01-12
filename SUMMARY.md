@@ -5,7 +5,7 @@
 ## EdgeTX User Manual
 
 * [Användarmanual för sändare med färgskärm](edgetx-user-manual/user-manual-for-color-screen-radios/README.md)
-  * [User Interface](edgetx-user-manual/user-manual-for-color-screen-radios/user-interface.md)
+  * [Användargränssnitt](edgetx-user-manual/user-manual-for-color-screen-radios/user-interface.md)
   * [Select Model](edgetx-user-manual/user-manual-for-color-screen-radios/select-model.md)
   * [Model Settings](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/README.md)
     * [Model Setup](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/model-setup/README.md)
