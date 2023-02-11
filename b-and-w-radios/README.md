@@ -2,7 +2,7 @@
 description: UNDER UPPBYGGNAD
 ---
 
-# 🚧 Sändare med svartvita skärmar
+# 🚧 Användarmanual för sändare med svartvita skärmar
 
 EdgeTX stödjer följande sändare med svartvita skärmar:
 
@@ -17,6 +17,7 @@ EdgeTX stödjer följande sändare med svartvita skärmar:
 * Jumper T12 / T12 Plus / T12 Pro Hall
 * Jumper T-Lite
 * Jumper T-Pro
+* RadioMaster Boxer
 * RadioMaster T8 / T8 Pro
 * RadioMaster TX12 / TX12 Mark II
 * RadioMaster Zorro
