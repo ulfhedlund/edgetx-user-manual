@@ -31,12 +31,12 @@ Vissa sändare har en pekskärm. På dessa sändare går det att interagera i me
 Det går att inaktivera pekskärmen genom att konfigurera en specialfunktion. Se [special-functions.md](model-settings/special-functions.md "mention") för mer information.&#x20;
 {% endhint %}
 
-Touch the EdgeTX icon in the upper left corner of the screen to open the main navigation menu. Touch the desired menu option to select it.
+Peka på EdgeTX-ikonen i det över vänstra hörnet av skärmen för att öppna huvudmenyn. Peka på önskad meny för att välja den.
 
 <figure><img src="../../.gitbook/assets/mainmenu.jpg" alt=""><figcaption><p>Main navigation menu</p></figcaption></figure>
 
 {% hint style="info" %}
-For models that have **Display Checklist** enabled in the [Preflight Checks](model-settings/model-setup/preflight-checks.md) screen and a valid model checklist file in the **Models** folder you will see a **Model Notes** icon instead of the **Channel Monitor** icon.
+För modeller som har **Visa checklista** aktiverad på sidan [preflight-checks.md](model-settings/model-setup/preflight-checks.md "mention") och har en giltig fil med en checklista i SD-kortets **Models**-katalog visas en ikon för **Modellanteckningar** istället för en ikon för **Kanalmonitor**.
 {% endhint %}
 
-Pressing the roller from the main screen will also open the main navigation menu. You can then scroll using the roller to the desired menu option and select it by pressing the roller.
+Att trycka på rullhjulet från huvudskärmen öppnar också huvudmenyn. Du kan sedan skrolla till önskat menyval och välja meny genom att trycka på rullhjulet.
