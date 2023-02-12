@@ -1,8 +1,8 @@
-# Common Telemetry Sensors
+# Vanliga telemetrisensorer
 
 The following sensors are commonly used and normal automatically detected by EdgeTX:
 
-| Name | Description                               | Data source               |
+| Namn | Beskrivning                               | Datakälla                 |
 | ---- | ----------------------------------------- | ------------------------- |
 | 1RSS | Received signal strength antenna 1 (RSSI) | Receiver                  |
 | 2RSS | Received signal strength antenna 2 (RSSI) | Receiver                  |

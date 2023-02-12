@@ -1,34 +1,34 @@
-# User Interface
+# Användargränssnitt
 
-The user interface of EdgeTX can be navigated by physical buttons, the touch interface, or a combination of both.
+Det går att navigera i EdgeTX användargränssnitt med fysiska knappar, pekskärm eller en kombination av båda dessa.
 
 <figure><img src="../../.gitbook/assets/buttonnavigation.jpg" alt=""><figcaption><p>Common buttons for navigation</p></figcaption></figure>
 
-### **Buttons:**
+### **Knappar:**
 
-* **\[SYS]** - System Button\
-  ****- Short press **\[SYS]** button to go to the [Radio Settings](radio-settings/) page.
-* **\[MDL]** - Model **** Button\
-  ****- Short press **\[MDL]** button to go to the [Model Settings](model-settings/) page\
-  \- Long press **\[MDL]** button to go to the [Select Model](select-model.md) page
-* **\[RTN] -** Return / Back \
-  \- Short press **\[RTN]** button to return to the previous page, previous menu or cancel action
-* **\[PAGE>] / \[PAGE<]** - Page next & page previous\
-  ****- Used to navigate between different screens, tabs, or options settings, depending on the screen.
-* **\[TELE] -** Telemetry \
-  \- Press the **\[TELE]** button to go to the [Screen Settings](screen-settings/) page
-* **\[Roller]** or **\[Dial]** - Next & previous value\
-  The roller is used to navigate through menu options. &#x20;
-* **\[Enter]** - Accept \
-  \- Used to select option, function or accept value\
-  \- Push **\[Roller]** or **\[Dial]** button to select or enter.
+* **\[SYS]** - System\
+  \*\*\*\*- Tryck på **\[SYS]** för att gå till sidan för [radio-settings](radio-settings/ "mention").
+* **\[MDL]** - Modell \*\*\*\*\
+  \*\*\*\*- Tryck på **\[MDL]** för att gå till sidan för [model-setup](model-settings/model-setup/ "mention").\
+  \- Håll ner **\[MDL]** för att gå till sidan Välj modell.
+* **\[RTN] -** Return / Bakåt\
+  \- Tryck på **\[RTN]** för att återgå till föregående sida, föregående meny eller för att avbryta aktiviteten.
+* **\[PAGE>] / \[PAGE<]** - Nästa sida & Föregående sida\
+  \*\*\*\*- Används för att navigera mellan olika skärmar, flikar eller inställningar.
+* **\[TELE] -** Telemetri\
+  \- Tryck på **\[TELE]** för att gå till sidan för [screen-settings](screen-settings/ "mention").
+* **\[Rullhjul]** eller **\[Snurrhjul]** - Nästa och föregående värde.\
+  Rullhjulet används för att navigera i de olika menyerna.
+* **\[Enter]** - Acceptera\
+  \- Används för att välja alternativ, funktion eller acceptera värde\
+  \- Tryck på **\[Rullhjul]** eller **\[Snurrhjul]** för att välja eller acceptera.
 
-### **Touch Interface**:
+### **Pekskärm**:
 
-Certain radios are equipped with a touch screen.  On these radios, you can interface with the menu options either with touch or physical buttons.&#x20;
+Vissa sändare har en pekskärm. På dessa sändare går det att interagera i menyerna antingen med de fysiska knapparna eller pekskärmen.
 
 {% hint style="info" %}
-It is possible to disable the touch interface by configuring a special function. See  [special-functions.md](model-settings/special-functions.md "mention") for more information.
+Det går att inaktivera pekskärmen genom att konfigurera en specialfunktion. Se [special-functions.md](model-settings/special-functions.md "mention") för mer information.&#x20;
 {% endhint %}
 
 Touch the EdgeTX icon in the upper left corner of the screen to open the main navigation menu. Touch the desired menu option to select it.

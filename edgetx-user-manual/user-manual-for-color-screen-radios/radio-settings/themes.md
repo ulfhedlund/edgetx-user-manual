@@ -1,4 +1,4 @@
-# Themes
+# Teman
 
 <figure><img src="../../../.gitbook/assets/themes.jpg" alt=""><figcaption><p>Themes Screen</p></figcaption></figure>
 
@@ -19,12 +19,12 @@ You can find more user-created themes and additional theme creation resources he
 
  
 
-<figure><img src="../../../.gitbook/assets/themes3 (1).jpg" alt=""><figcaption><p>Edit Color screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/themes3.jpg" alt=""><figcaption><p>Edit Color screen</p></figcaption></figure>
 
 </div>
 
-To edit a theme in the **Theme Editor**, select the color variable from the list on the left side of the screen. Once you do, the **Edit Color** screen will be shown.&#x20;
+To edit a theme in the **Theme Editor**, select the color variable from the list on the left side of the screen. Once you do, the **Edit Color** screen will be shown.
 
-Select the color using either the color scales on the left side of the screen. You can choose between the RGB and HSV color scales with the buttons at the upper right side of the screen.&#x20;
+Select the color using either the color scales on the left side of the screen. You can choose between the RGB and HSV color scales with the buttons at the upper right side of the screen.
 
 Once you have your desired color, press the theme logo in the upper left corner to go back to the **Edit Theme** screen to select another color variable to edit. Once you are finished, press the theme logo to exit the Theme Editor and save your changes.
