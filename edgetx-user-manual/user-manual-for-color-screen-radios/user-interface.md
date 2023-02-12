@@ -31,7 +31,7 @@ Vissa sändare har en pekskärm. På dessa sändare går det att interagera i me
 Det går att inaktivera pekskärmen genom att konfigurera en specialfunktion. Se [special-functions.md](model-settings/special-functions.md "mention") för mer information.&#x20;
 {% endhint %}
 
-Peka på EdgeTX-ikonen i det över vänstra hörnet av skärmen för att öppna huvudmenyn. Peka på önskad meny för att välja den.
+Peka på EdgeTX-ikonen i det övre vänstra hörnet av skärmen för att öppna huvudmenyn. Peka på önskad meny för att välja den.
 
 <figure><img src="../../.gitbook/assets/mainmenu.png" alt=""><figcaption><p>Huvudmeny</p></figcaption></figure>
 
