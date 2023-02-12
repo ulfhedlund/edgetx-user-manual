@@ -26,7 +26,7 @@
     * [Logiska brytare](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/logical-switches.md)
     * [Specialfunktioner](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/special-functions.md)
     * [Telemetri](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/README.md)
-      * [Sensor Configuration Options](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/sensor-configuration-options.md)
+      * [Konfiguration av telemetrisensorer](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/sensor-configuration-options.md)
       * [Vanliga telemetrisensorer](edgetx-user-manual/user-manual-for-color-screen-radios/model-settings/telemetry/common-telemetry-sensors.md)
   * [Radioinställningar](edgetx-user-manual/user-manual-for-color-screen-radios/radio-settings/README.md)
     * [Verktyg](edgetx-user-manual/user-manual-for-color-screen-radios/radio-settings/tools.md)
