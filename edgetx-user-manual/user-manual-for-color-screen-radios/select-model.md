@@ -1,16 +1,16 @@
 # Välj modell
 
-The select model screen allows you to create new models, select which model is active, create and apply model lables as well as create model templates.
+Skärmen Välj modell ger dig möjlighet att skapa nya modeller, välja aktiv modell, skapa och sätta modelletiketter samt skapa modellmallar.
 
-<figure><img src="../../.gitbook/assets/selectmodel.jpg" alt=""><figcaption><p>Select Model screen</p></figcaption></figure>
+### Välj modell
 
-### Selecting Models
+<figure><img src="../../.gitbook/assets/selectmodel.png" alt=""><figcaption><p>Välj modell</p></figcaption></figure>
 
-The selected model will be highlighted (yellow in this case). Double-tapping a selected model will give you the following options:
+Aktiv modell är markerad (med gult i detta fall). Att dubbelklicka på en aktiv modell ger dig följande alternativ:
 
-* **Duplicate model** - This option creates an exact duplicate of the model with the same name. Changes to the model name or other settings need to be made in the [Model Settings ](model-settings/)tab.
-* **Edit Labels** - When this option is selected, all configured labels will be displayed and can be selected for this model. More Information about [Model Labels](select-model.md#model-labels) is below.
-* **Save as template** - this option saves a copy of the model as a model template.
+* **Duplicera modell** - skapar en exakt kopia av den aktiva modellen, med samma namn. Ändringar av modellnamn eller andra inställningar kan göras i [Model Settings](model-settings/model-setup/).
+* **Redigera etiketter** - When this option is selected, all configured labels will be displayed and can be selected for this model. More Information about [Model Labels](select-model.md#model-labels) is below.
+* **Spara som mall** - this option saves a copy of the model as a model template.
 
 {% hint style="info" %}
 Changes to models that were saved as templates do not update the templates themselves.
