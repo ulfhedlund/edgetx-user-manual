@@ -1,5 +1,5 @@
 ---
-description: General model settings
+description: Generella modellinställningar
 ---
 
 # Modellinställningar
