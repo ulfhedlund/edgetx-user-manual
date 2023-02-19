@@ -7,16 +7,16 @@ Det går att navigera i EdgeTX användargränssnitt med fysiska knappar, pekskä
 ### **Knappar:**
 
 * **\[SYS]** - System\
-  \*\*\*\*- Tryck på **\[SYS]** för att gå till sidan för [radio-settings](radio-settings/ "mention").
+  \*\*\*\*- Tryck på **\[SYS]** för att gå till sidan för [Radioinställningar](radio-settings/).
 * **\[MDL]** - Modell \*\*\*\*\
-  \*\*\*\*- Tryck på **\[MDL]** för att gå till sidan för [model-setup](model-settings/model-setup/ "mention").\
+  \*\*\*\*- Tryck på **\[MDL]** för att gå till sidan för [Modellinställningar](model-settings/model-setup/).\
   \- Håll ner **\[MDL]** för att gå till sidan Välj modell.
 * **\[RTN] -** Return / Bakåt\
   \- Tryck på **\[RTN]** för att återgå till föregående sida, föregående meny eller för att avbryta aktiviteten.
 * **\[PAGE>] / \[PAGE<]** - Nästa sida & Föregående sida\
   \*\*\*\*- Används för att navigera mellan olika skärmar, flikar eller inställningar.
 * **\[TELE] -** Telemetri\
-  \- Tryck på **\[TELE]** för att gå till sidan för [screen-settings](screen-settings/ "mention").
+  \- Tryck på **\[TELE]** för att gå till sidan för [Skärminställningar](screen-settings/).
 * **\[Rullhjul]** eller **\[Snurrhjul]** - Nästa och föregående värde.\
   Rullhjulet används för att navigera i de olika menyerna.
 * **\[Enter]** - Acceptera\

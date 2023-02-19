@@ -6,38 +6,39 @@ Skärmen Välj modell ger dig möjlighet att skapa nya modeller, välja aktiv mo
 
 <figure><img src="../../.gitbook/assets/selectmodel.png" alt=""><figcaption><p>Välj modell</p></figcaption></figure>
 
-Aktiv modell är markerad (med gult i detta fall). Att dubbelklicka på en aktiv modell ger dig följande alternativ:
+Aktiv modell är överstruken (med gult i detta fall). Att dubbelklicka på en aktiv modell ger dig följande alternativ:
 
-* **Duplicera modell** - skapar en exakt kopia av den aktiva modellen, med samma namn. Ändringar av modellnamn eller andra inställningar kan göras i [Model Settings](model-settings/model-setup/).
-* **Redigera etiketter** - When this option is selected, all configured labels will be displayed and can be selected for this model. More Information about [Model Labels](select-model.md#model-labels) is below.
-* **Spara som mall** - this option saves a copy of the model as a model template.
+* **Duplicera modell** - skapar en exakt kopia av den aktiva modellen, med samma namn. Ändringar av modellnamn eller andra inställningar kan göras i [Modellinställningar](model-settings/model-setup/).
+* **Redigera etiketter** - detta alternativ visar alla befintliga etiketter, vilka sedan kan tilldelas modellen. Mer infomation om modelletiketter finns nedan under [Modelletiketter](select-model.md#modelletiketter).
+* **Spara som mall** - detta alternativ sparar modellen som en modellmall.
 
 {% hint style="info" %}
-Changes to models that were saved as templates do not update the templates themselves.
+Ändringar av modeller som sparats som modellmallar uppdaterar inte själva modellmallarna.
 {% endhint %}
 
-Double-tapping on an unselected model (unhighlighted) will give you the following options:
+Att dubbelklicka på en icke vald modell (ej överstruken) ger dig följande alternativ:
 
-* **Select model** - this option selects this model as the selected model (active model).
-* **Duplicate model** - same as described above.
-* **Delete model** - this option moves the model to the deleted folder on the SD Card. _Only models that are not selected can be deleted._
-* \*\*Edit Labels \*\*_\*\*\*\*_ - same as described above.
-* **Save as template** - same as described above.
+* **Välj modell** - sätt vald modell till aktiv modell.
+* **Duplicera modell** - samma som beskrivits ovan.
+* **Radera modell** - flyttar modellen till katalog MODELS/DELETED på SD-kortet. _Endast modeller som inte är aktiva kan raderas._
+* **Redigera etiketter** - samma som beskrivits ovan.
+* **Spara som mall** - samma som beskrivits ovan.
 
-### New Model
+### Ny modell
 
 To create a new model, select the **New Model** button in the upper right corner. You will then be presented with the following options:
 
 <figure><img src="../../.gitbook/assets/newmodel.jpg" alt=""><figcaption><p>New model options</p></figcaption></figure>
 
-* **Blank Model** - This will create a blank model with only the default options configured.
-* **PERSONAL** - This option will allow you to select one of your saved model templates and then create a copy of it as a new model.
-* **SoarETX** - This will display pre-configured model templates for radio-controlled model sailplanes.
-* **WIZARD** - This will launch the new model wizard and create the model as configured in the wizard.
+* **Tom modell** - skapar en tom modell med enbart standardinställningar konfigurerade.
+* **PERSONAL** - ger dig möjlighet att skapa en ny modell från någon av dina egna sparade modellmallar.
+* **SoarETX** - ger dig möjlighet att skapa en ny modell från en av flera förkonfigurerade modellmallar för RC-segelflygplan.
+* **STANDARD** - ger dig möjlighet att skapa en ny modell från någon av de standardmodellmallar som finns.
+* **WIZARD** - öppnar en modellguide där du kan skapa en ny modell genom att följa instruktionerna i guiden.
 
-### Model Labels
+### Modelletiketter
 
-Model labels allow you to give each model one or more labels. You are then able to filter the models displayed in the **Model Select** screen based on the labels that you select. This allows people with many configured models to find them easier. By default, the **Favorites** andU**Unlabeled** labels are created automatically. All models are considered **unlabeled** until a label is applied to them.
+Model labels allow you to give each model one or more labels. You are then able to filter the models displayed in the **Model Select** screen based on the labels that you select. This allows people with many configured models to find them easier. By default, the **Favorites** and **Unlabeled** labels are created automatically. All models are considered **unlabeled** until a label is applied to them.
 
 <figure><img src="../../.gitbook/assets/labelfilters.jpg" alt=""><figcaption><p>Model label filters and sorting</p></figcaption></figure>
 
