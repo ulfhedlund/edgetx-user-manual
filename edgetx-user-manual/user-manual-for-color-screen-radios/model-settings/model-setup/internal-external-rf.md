@@ -1,6 +1,6 @@
 # Intern / Extern radiomodul
 
-Sidorna för konfigurationsinställningar av såväl intern som extern radiomodul fungerar på samma sätt. Den enda skillnaden är att delen för **Intern radiomodul** är för konfiguration av den inbyggda radiomodulen medan delen för **Extern radiomodul** är för konfiguration av en extern radiomodul.
+Sidorna för konfigurationsinställningar av såväl intern och extern radiomodul fungerar likadant. Den enda skillnaden är att delen för **Intern radiomodul** är för konfiguration av den inbyggda radio-modulen medan delen för **Extern radiomodul** är för konfiguration av en extern radiomodul.
 
 Den interna eller externa radiomodulen är aktiv för en modell när knappen är gul och inaktiv när den är vit.
 
