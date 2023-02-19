@@ -9,14 +9,14 @@ Skärmen Välj modell ger dig möjlighet att skapa nya modeller, välja aktiv mo
 Aktiv modell är överstruken (med gult i detta fall). Att dubbelklicka på en aktiv modell ger dig följande alternativ:
 
 * **Duplicera modell** - skapar en exakt kopia av den aktiva modellen, med samma namn. Ändringar av modellnamn eller andra inställningar kan göras i [Modellinställningar](model-settings/model-setup/).
-* **Redigera etiketter** - detta alternativ visar alla befintliga etiketter, vilka sedan kan tilldelas modellen. Mer infomation om modelletiketter finns nedan under [Modelletiketter](select-model.md#modelletiketter).
+* **Redigera etiketter** - detta alternativ visar alla befintliga etiketter, vilka sedan kan tilldelas modellen. Mer information om modelletiketter finns nedan under [Modelletiketter](select-model.md#modelletiketter).
 * **Spara som mall** - detta alternativ sparar modellen som en modellmall.
 
 {% hint style="info" %}
 Ändringar av modeller som sparats som modellmallar uppdaterar inte själva modellmallarna.
 {% endhint %}
 
-Att dubbelklicka på en icke vald modell (ej överstruken) ger dig följande alternativ:
+Att dubbelklicka på en icke vald (ej överstruken) modell ger dig följande alternativ:
 
 * **Välj modell** - sätt vald modell till aktiv modell.
 * **Duplicera modell** - samma som beskrivits ovan.
@@ -26,9 +26,9 @@ Att dubbelklicka på en icke vald modell (ej överstruken) ger dig följande alt
 
 ### Ny modell
 
-To create a new model, select the **New Model** button in the upper right corner. You will then be presented with the following options:
+För att skapa en ny modell, klicka på **Ny modell** i det övre högra hörnet. Du får därmed följande alternativ:
 
-<figure><img src="../../.gitbook/assets/newmodel.jpg" alt=""><figcaption><p>New model options</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/newmodel.png" alt=""><figcaption><p>Ny modell</p></figcaption></figure>
 
 * **Tom modell** - skapar en tom modell med enbart standardinställningar konfigurerade.
 * **PERSONAL** - ger dig möjlighet att skapa en ny modell från någon av dina egna sparade modellmallar.
@@ -38,9 +38,9 @@ To create a new model, select the **New Model** button in the upper right corner
 
 ### Modelletiketter
 
-Model labels allow you to give each model one or more labels. You are then able to filter the models displayed in the **Model Select** screen based on the labels that you select. This allows people with many configured models to find them easier. By default, the **Favorites** and **Unlabeled** labels are created automatically. All models are considered **unlabeled** until a label is applied to them.
+Modelletiketter ger dig möjligheten att sätta en eller flera etiketter på varje modell. You are then able to filter the models displayed in the **Model Select** screen based on the labels that you select. This allows people with many configured models to find them easier. By default, the **Favorites** and **Unlabeled** labels are created automatically. All models are considered **unlabeled** until a label is applied to them.
 
-<figure><img src="../../.gitbook/assets/labelfilters.jpg" alt=""><figcaption><p>Model label filters and sorting</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/modellabels.png" alt=""><figcaption><p>Modelletiketter</p></figcaption></figure>
 
 #### Creating new model labels
 
