@@ -1,29 +1,29 @@
 # Intern / Extern radiomodul
 
-The configuration settings for both the Internal and External RF pages work the same. The only difference is that the **Internal RF** section is for configuring the built-in module and the **External RF** section is for configuring an RF module in the external module bay.
+Sidorna för konfigurationsinställningar av såväl intern och extern radiomodul fungerar likadant. Den enda skillnaden är att delen för **Intern radiomodul** är för konfiguration av den inbyggda radio-modulen medan delen för **Extern radiomodul** är för konfiguration av en extern radiomodul.
 
-The Internal / External RF modules are "active" for a model when the buttons are yellow and inactive when they are white.
+Den interna eller externa radiomodulen är aktiv för en modell när knappen är gul och inaktiv när den är vit.
 
 <div>
 
-<figure><img src="../../../../.gitbook/assets/internalrf2.jpg" alt=""><figcaption><p>Internal RF with multi-protocol module selected</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/internalrf2.png" alt=""><figcaption><p>Intern radiomodul med multiprotokoll vald</p></figcaption></figure>
 
  
 
-<figure><img src="../../../../.gitbook/assets/internalrf1.jpg" alt=""><figcaption><p>Internal RF with CRSF selected</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/internalrf1.png" alt=""><figcaption><p>Internal radiomodul med Crossfire (CRSF) vald</p></figcaption></figure>
 
 </div>
 
-The configuration options are: _**off**_ or the _**module name**_ of the installed module as configured in the [_hardware_](../../radio-settings/hardware.md) section of the _**Radio**_\*\* \*\* settings. Configuration options are unique to each installed module. Please consult the manufacturer's documentation for configuration options.
+Konfigurationsinställningarna är **Av** eller namnet på **typen av modul** enligt inställningarna för radions [hårdvara](../../radio-settings/hardware.md). Tillgängliga alternativ för inställningar av radiomodulen varierar med varje installerad typ av modul. Vi hänvisar till respektive tillverkares dokumentation för mer information om de olika alternativen.
 
 {% hint style="info" %}
-Configuration options for the multi-protocol module are described here: [https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)
+Konfigurationsinställningarna för multiprotokollmodulen finns här: [https://www.multi-module.org/using-the-module/protocol-options](https://www.multi-module.org/using-the-module/protocol-options)
 {% endhint %}
 
-#### Receiver number
+#### Mottagarnummer
 
-The receiver number is a user-assigned number for a model that is sent to the receiver when bound. Each model must have a unique receiver number. However, models using different protocols may have the same receiver number without issues. EdgeTX will inform you when a receiver number is unique or if it is already being used with a text above the number field.
+Mottagarens nummer är en användarvald siffra för en modell, som skickas till mottagaren när den binds (parkopplas) med sändaren. Varje modell måste i regel ha ett unikt mottagarnummer men modeller som använder olika protokoll kan ha samma nummer utan problem. EdgeTX informerar om mottagarnumret är unikt eller om det redan används, med en text ovanför nummerfältet.
 
 {% hint style="info" %}
-If using the radio in gamepad mode, both internal and external RF modules should be turned off. This will result in increased performance when connected to a computer via USB.
+Om radion ska användas som spelkontroll bör såväl den interna som externa radiomodulen stängas av. Detta resulterar i bättre prestanda när radion är ansluten till en dator via USB.
 {% endhint %}
