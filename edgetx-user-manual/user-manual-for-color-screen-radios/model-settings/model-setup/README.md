@@ -4,42 +4,42 @@ description: Generella modellinställningar
 
 # Modellinställningar
 
-<figure><img src="../../../../.gitbook/assets/modelsetup.jpg" alt=""><figcaption><p>Model Setup tab under Model Settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/modelsetup.png" alt=""><figcaption><p>Modellinställningar</p></figcaption></figure>
 
-The **model setup** page is the default page for model settings and is where you start to configure your model. It contains the following settings:
+Huvudsidan **Modellinställningar** är den sida där du påbörjar inställningar av din modell. Den innehåller följande:
 
-#### Model name
+#### Modellnamn
 
-Enter the desired name for the model. The maximum number of characters is 15.
+Ange önskat namn för modellen. Maximalt 15 tecken kan anges.
 
-#### Labels
+#### Etiketter
 
-Here you may assign a label from your defined label list. By default, the model label will be **Unlabeled.** More information on creating labels can be found on the [select-model.md](../../select-model.md "mention") page.
+Här kan du sätta etiketter på modellen, från listan med befintliga etiketter. Etiketten **Utan etikett** är förvald**.** Mer information om hur etiketter hanteras finns på sidan [Välj modell](../../select-model.md).
 
-#### Model image
+#### Modellikon
 
-When the folder icon is selected, a window will pop up allowing you to select an image file from the images folder on your SD Card.
+När katalogikonen väljs visas ett popupfönster där du kan välja en bild från bildkatalogen (IMAGES) på radions SD-kort.
 
 {% hint style="info" %}
-To avoid performance issues, the model image size should not exceed 192 x 114 pixels.
+För att undvika prestandaproblem bör bildfilerna inte vara större än 192 x 114 pixlar.
 {% endhint %}
 
 {% hint style="info" %}
-[https://www.skyraccoon.com/](https://www.skyraccoon.com/) has a large repository of free image files that can be used with EdgeTX.
+På [https://www.skyraccoon.com/](https://www.skyraccoon.com/) finns ett stort antal öppna modellbildfiler som kan användas med EdgeTX.
 {% endhint %}
 
-#### Use global functions
+#### Använda globala funktioner
 
-When enabled, global functions programmed in the radio settings will apply to this model. When disabled, global functions will not apply to this model.
+När inställningen är aktiverad kommer de globala funktioner som finns konfigurerade i radion att gälla för denna modell. Om inställningen är inaktiverad gäller de inte för modellen.
 
 {% hint style="info" %}
-_Global functions_ are _special functions_ that are applied across all models. Refer to [Special _Functions_](../special-functions.md) for information on configurable settings.
+_Globala funktioner_ är _specialfunktioner_ som kan appliceras för alla modeller på radion. Se [Specialfunktioner](../special-functions.md) för information om hur dessa kan konfigureras.
 {% endhint %}
 
-#### ADC Filter
+#### ADC-filter
 
-Enables/disables the ADC filter for this model. The _**global**_ option will take the value designated in the radio settings, which is _on_ by default.
+Aktiverar/inaktiverar ADC-filtret för den specifika modellen. Alternativet _**global**_ antar det värde som satts i radions [hårdvaruinställningar](../../radio-settings/hardware.md), vilket är _På_ som förvalt värde.
 
 {% hint style="info" %}
-The ADC filter is a filter for the proportional channels (sticks, pots, sliders), smoothing out smaller fast movements that occur due to noise in the system electronics. Normally, this filter should be _disabled_ for models with flight controllers.
+ADC-filtret är ett filter för de proportionella kanalerna (spakar, vred och reglage) som jämnar ut små snabba ändringar som kan uppstå på grund av störningar i systemelektroniken. Normalt sett ska detta filter vara _Av_ för modeller med "flight controllers".
 {% endhint %}
