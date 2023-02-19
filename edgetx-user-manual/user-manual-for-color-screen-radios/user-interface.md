@@ -1,6 +1,6 @@
 # Användargränssnitt
 
-Det går att navigera i EdgeTX användargränssnitt med fysiska knappar, pekskärm eller en kombination av båda dessa.
+Det går att navigera i EdgeTX användargränssnitt med fysiska knappar, pekskärm eller en kombination av dessa.
 
 <figure><img src="../../.gitbook/assets/buttonnavigation.jpg" alt=""><figcaption><p>Common buttons for navigation</p></figcaption></figure>
 
