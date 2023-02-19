@@ -38,22 +38,22 @@ För att skapa en ny modell, klicka på **Ny modell** i det övre högra hörnet
 
 ### Modelletiketter
 
-Modelletiketter ger dig möjligheten att sätta en eller flera etiketter på varje modell. You are then able to filter the models displayed in the **Model Select** screen based on the labels that you select. This allows people with many configured models to find them easier. By default, the **Favorites** and **Unlabeled** labels are created automatically. All models are considered **unlabeled** until a label is applied to them.
+Modelletiketter ger dig möjligheten att sätta en eller flera etiketter på varje modell. Du kan sedan filtera vilka modeller som ska visas i **Välj modell**, baserat på vilka etiketter du valt. Detta gör det enklare att hitta en viss modell om du har många modeller i din radio. Två etiketter, **Favoriter** och **Utan etikett** skapas automatiskt. Alla modeller är utan etikett tills minst en etikett har satts på dem.
 
 <figure><img src="../../.gitbook/assets/modellabels.png" alt=""><figcaption><p>Modelletiketter</p></figcaption></figure>
 
-#### Creating new model labels
+#### Skapa ny modelletikett
 
-To create a new model label, select the **New** button on the bottom left of the screen. The **Enter Label** pop-up will appear and you can enter the desired label name. Select **Save** to save the new label.
+För att skapa en ny modelletikett, tryck på knappen **Ny** i det nedre vänstra hörnet. En popup **Ange etikett** visas där du kan ange önskad etikett. Välj **Spara** för att spara den nya etiketten.
 
-#### Assigning labels to models
+#### Sätta etiketter på modeller
 
-To assign a label to a model, double-tap an unselected model and then select **Edit Labels**. Once selected, all configured labels will be displayed and one or more labels can be selected for this model. Labels applied to the model will be designated with a _**check**_\*\* \*\* icon.
+För att sätta en etikett på en modell, dubbelklicka på en inaktiv modell och välj **Redigera etiketter**. Därefter kan en eller flera etiketter väljas ur den lista med etiketter som visas. Valda etiketter är förbockade i listan.
 
-#### Applying and sorting model label filters
+#### Tillämpa modellfilter och sortera modeller
 
-To apply a model label filter, select the filter or filters from the left column. It will automatically filter out the models that do not have those model labels.
+För att filtera modellerna efter sina etiketter, välj ett eller flera etikettfilter ur den vänstra kolumnen. De modeller som saknar dessa etiketter kommer därmed filtreras bort och inte visas.
 
-The icons below the label list are for sorting the filtered models. Either alphabetically or by last time selected as described in the image below.
+Ikonerna under listan med modelletiketter kan användas för att sortera de filtrerade modellerna, enligt bilden nedan.
 
-<figure><img src="../../.gitbook/assets/labelsort (1).jpg" alt=""><figcaption><p>Sorting icon definitions</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/labelsort.jpg" alt=""><figcaption></figcaption></figure>
