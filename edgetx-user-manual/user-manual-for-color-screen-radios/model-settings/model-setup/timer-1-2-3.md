@@ -2,13 +2,13 @@
 
 <figure><img src="../../../../.gitbook/assets/timers.png" alt=""><figcaption><p>Konfiguration av timer</p></figcaption></figure>
 
-EdgeTX har 3 timers som var och en kan konfigureras individuellt. Följande konfigureringsalternativ finns:
+EdgeTX har 3 timers (tidtagare) som var och en kan konfigureras individuellt. Följande konfigureringsalternativ finns:
 
 **Namn:** Namnet på timern
 
 **Typ**:
 
-* **Av**- Timern används inte
+* **Av** - Timern används inte
 * **På \*\*\*** - Timern är på så länge som konfigurerad brytare är aktiv. Timern stoppas när brytaren inaktiveras.
 * **Start** \*\*\* - Timern är på hela tiden oavsett brytarens läge.
 * **Gas** - Timern startar när gasen höjs över noll och konfigurerad brytare är aktiv. Timern stoppar antingen när gasen sänks till noll eller brytaren inaktiveras.
@@ -19,7 +19,7 @@ EdgeTX har 3 timers som var och en kan konfigureras individuellt. Följande konf
 **Gas**, **Gas % och Gas Start** kan aktiveras av en brytare (även en logisk brytare), vred eller värdet av en annan kanal än gaskanalen. Detta specificeras i fältet **Gaskälla** i sektionen [throttle.md](throttle.md "mention") in **Modellinställningar**.
 {% endhint %}
 
-**Switch -** Ange den brytare som ska trigga att timern startar. Om ingen brytare är vald triggas timern enbart beroende på dess typ. Utöver en brytare kan du även ange en trimmer, telemetrikälla (som triggas när data tas emot från källan) eller endera slags fysisk aktivitet (en spak som rörs eller en knapptryckning, kallad **Act)**.
+**Brytare -** Ange den brytare som ska trigga att timern startar. Om ingen brytare är vald triggas timern enbart beroende på dess typ. Utöver en brytare kan du även ange en trimmer, telemetrikälla (som triggas när data tas emot från källan) eller endera slags fysisk aktivitet (en spak som rörs eller en knapptryckning, kallad **Act)**.
 
 {% hint style="info" %}
 De poster som har ett "!" före brytarnamnet betyder att villkoret är inverterat. \
@@ -34,17 +34,17 @@ Till exempel: "!SA-" betyder "när brytare SA inte är i sin mitten/centerpositi
 
 **Nedräkning:**
 
-* **Tyst** - No notification is given until the timer reaches zero. When it reaches zero, you will hear one beep.
-* **Pip** - The radio will beep every second starting at the time designated.
-* **Röst** - The radio will count down by second starting at the time designated.
-* **Vibrera** -The radio will vibrate every second starting at the time designated.
+* **Tyst** - Inga meddelanden ges förrän timern nått noll. Då avges ett enda pip.
+* **Pip** - Radion kommer pipa varje sekund, med start vid angiven kvarvarande tid.
+* **Röst** - Radion kommer räkna ner varje sekund, med start vid angiven kvarvarande tid.
+* **Vibrera** - Radion kommer vibrera varje sekund, med start vid angiven kvarvarande tid.
 
 **Alltid på:**
 
-* **Av** - The timer value is reset when switching models or when the radio is turned off / on.
-* **Flygning** - The timer value is NOT reset when switching models or when radio is turned off / on. The timer value is only reset when the **Reset flight** option is selected in the [Reset telemetry ](../../reset-telemetry.md)menu.
-* **Nolla själv -** The timer value is reset only when it is individually selected to be reset (example: Reset timer1) in the [Reset telemetry ](../../reset-telemetry.md)menu.
+* **Av** - Timern återställs vid ett modellbyte, eller när radion stängs av/på.
+* **Flygning** - Timern återställs INTE vid ett modellbyte eller när radion stängs av/på. Timern återställs endast när **Återställ flygning** väljs i huvudmenyn [Återställ telemetri](../../reset-telemetry.md).
+* **Nolla själv -** Timern återställs endast när återställning av den individuella timern väljs i huvudmenyn [Återställ telemetri](../../reset-telemetry.md).
 
 {% hint style="info" %}
-The **Flight** persistent setting can be set for multiple timers and then these timers can be reset simultaneously with the **Reset flight** option.
+Inställningen **Alltid på - Flygning** kan anges för flera timers. Därmed kan dessa återställas samtidigt med valet **Återställ flygning**.
 {% endhint %}
