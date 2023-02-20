@@ -1,6 +1,6 @@
 # Välj modell
 
-Skärmen Välj modell ger dig möjlighet att skapa nya modeller, välja aktiv modell, skapa och sätta modelletiketter samt skapa modellmallar.
+Skärmen **Välj modell** ger dig möjlighet att skapa nya modeller, välja aktiv modell, skapa och sätta modelletiketter samt skapa modellmallar.
 
 ### Välj modell
 
