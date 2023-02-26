@@ -1,21 +1,21 @@
 # Startkontroller
 
-<figure><img src="../../../../.gitbook/assets/preflightchecks.jpg" alt=""><figcaption><p>Preflight Checks page</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/preflightchecks.png" alt=""><figcaption><p>Preflight Checks page</p></figcaption></figure>
 
-Whenever a new model is loaded, EdgeTX will conduct pre-flight checks based on the checks that are configured on this page. If any of the checks are failed, EdgeTX will give the user an audio and visual warning that must be acknowledged before using the model. The following preflight checks are configurable:
+Varje gång en ny modell laddas i EdgeTX görs startkontroller enligt inställningarna på denna sida. Om någon av kontrollerna misslyckas ges en ljudlig och visuell varning, som måste bekräftas innan modellen kan användas. Följande startkontroller kan konfigureras:
 
-**Display checklist** - When this option is selected, the model notes file will be displayed when the model is loaded. A valid model notes file must be in the **Models** folder on the SD card. The model notes file must be a .txt file and must have the EXACT same name as the model it is for, for example: Mobula6.txt. The text in the file is up to the user.
+**Visa checklista** - När denna kontroll är aktiverad kommer modellanteckningarna för modellen att visas när modellen laddas. En giltig anteckningsfil måste finnas i SD-kortets mapp **Models.** Modellanteckningarna måste vara en .txt-fil och ha exakt samma namn som själva modellen (exempel FunCub.txt för en modell med namn FunCub). Innehållet i textfilen är valfritt och upp till användaren att bestämma.
 
-**Throttle state** - When selected, the radio will check that the throttle is at the minimum range value for the configured throttle source in the [Throttle](throttle.md) menu.
+**Gasvarning** - När denna kontroll är aktiverad kommer radion att kontrollera att gasen är i sitt lägsta läge, för den kanal som är konfigurerad som gas i menyn [Gas](throttle.md).
 
-**Custom Position?** - When this option is selected, a number box will be shown that can be configured with a user-defined value for the throttle state check.
+**Egen position?** - Om denna kontroll är aktiverad visas en textruta där ett siffervärde kan anges, mot vilken gasens läge kontrolleras.
 
-**Switches** - The section displays all the switches that are configured on the radio and allows you to select which position is the correct position for the switch state check. Selecting the switch will cycle through the available switch positions or turn the check off for the switch completely. Yellow switches have the switch position check activated. White switches e de-activated.
+**Brytare** - Denna del av skärmen visar alla brytare som är konfigurerade på radion och ger användaren en möjlighet att ange vilket brytarläge som är korrekt för kontroll av brytarna. När brytaren väljs kan alla lägen för brytaren stegas igenom eller brytarkontrollen stängas av helt. Gulmarkerade brytare har kontrollen aktiverad medan för vitmarkerade brytare är kontrollen avstängd.
 
-**Pots & Sliders**- When activated, this option checks the position of the pots & sliders. There are three options - OFF, ON and AUTO. When ON or AUTO is selected from the drop-down menu, buttons for the available pots and sliders will appear.
+**Vred och reglage** - När denna kontroll är aktiverad kontrolleras läget för radions vred och reglage. Det finns tre alternativ - AV, PÅ och AUTO. När PÅ eller AUTO är vald visas knappar med radions vred och reglage.
 
-* **OFF** - Pot and slider positions are not checked.
-* **ON** - Positions are checked against manually configured pot and slider positions that are set to active (yellow). To manually set the check position, select ON from the drop-down menu, put the pots and sliders into the desired position, and activate them by selecting them (yellow).
-* **AUTO** - Positions are checked for activated pots and sliders and compared to the last automatically saved position before the radio was turned off or the model was changed.
+* **AV** - Vred och reglage kontrolleras inte.
+* **PÅ** - Lägena för vred och reglage kontrolleras mot manuellt konfigurerade lägen för de vred och reglage som aktiva (gulmarkerade). För att manuellt ställa in läget, välj PÅ i drop-downmenyn, ställ in önskat lägena för vred och reglage och aktivera kontrollen genom att välja dem (gulmarkerade).
+* **AUTO** - Läget för aktiverade vred och reglage kontrolleras mot deras senast sparade läge, innan radion stängdes av eller anna modell valdes.
 
-**Center Beep** - Allows you to turn on / off the center beep function for the individual sticks, pots, and sliders by selecting them (yellow).
+**Centerpip** - Ger möjligheten att slå av/på mittpip för individuella spakar, vred och reglage, genom att välja dem (gulmarkerade).
