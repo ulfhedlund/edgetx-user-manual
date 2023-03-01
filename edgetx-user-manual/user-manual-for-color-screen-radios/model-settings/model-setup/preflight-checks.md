@@ -16,6 +16,6 @@ Varje gång en ny modell laddas i EdgeTX görs startkontroller enligt inställni
 
 * **Av** - Vred och reglage kontrolleras inte.
 * **På** - Lägena för vred och reglage kontrolleras mot manuellt konfigurerade lägen för de vred och reglage som aktiva (gulmarkerade). För att manuellt ställa in läget, välj På i drop-downmenyn, ställ in önskat lägena för vred och reglage och aktivera kontrollen genom att välja dem (gulmarkerade).
-* **Auto** - Läget för aktiverade vred och reglage kontrolleras mot deras senast sparade läge, innan radion stängdes av eller anna modell valdes.
+* **Auto** - Läget för aktiverade vred och reglage kontrolleras mot deras senast sparade läge, innan radion stängdes av eller annan modell valdes.
 
 **Centerpip** - Ger möjligheten att slå av/på mittpip för individuella spakar, vred och reglage, genom att välja dem (gulmarkerade).
