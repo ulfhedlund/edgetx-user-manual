@@ -1,14 +1,14 @@
 # Helikopterinställningar
 
-The **Heli Setup** page in Model Settings is an optional page that is available on custom-compiled versions of EdgeTX. The heli setup page is often used for collective pitch mixing (CCPM) used in flybared helicopters where the receiver directly controls the swashplate servos. Most flybarless helicopters do not need to configure this page. The outputs of the CCPM mixer are CYC1, CYC2, and CYC3, which need to be assigned to an output channel on the Mixes screen.
+Sidan med **Helikopterinställningar** under modellinställningarna är en sida som endast finns tillgänglig om en anpassad version av radions firmware byggts, med det tillägget. Inställningarna används ofta för kollektiv pitch-mixning (CPPM) för helikoptrar med flybar, där mottagaren direkt kontrollerar swashringens servon. De flesta helikoptrar utan flybar behöver inte konfigureras med dessa inställningar. Output från CPPM-mixern är CYK1, CYK2 och CYK3, vilka behöver tilldelas en utdatakanal på sidan för Mixar.
 
-<figure><img src="../../../.gitbook/assets/helisetup.jpg" alt=""><figcaption><p>Heli Setup page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/heli.png" alt=""><figcaption><p>Helikopterinställningar</p></figcaption></figure>
 
-The heli setup page has the following configuration options:
+Följande inställningsmöjligheter finns:
 
-* **Swash Type** - Swash type for your model. Options are **120, 120x, 140, and 90.**
-* **Swash Ring** - Set the swash ring limit only as needed. **1** = maximum limit -> **100** or **0** = no limit.
-* **Long. cyc. source** - Select source input.
-* **Lateral cyc.source** -Select source input.
-* **Coll. pitch source** - Select source input.
-* **Weight** - Percentage value of the stick travel to use.
+* **Swashtyp** - Swashtyp för modellen. Alternativen är **120, 120x, 140** och **90.**
+* **Swashring** - Sätter gränsen för swashringen. **1** = maximal gräns -> **100,** eller **0** = ingen gräns.
+* **Höjdroderkälla** - Välj källans input.
+* **Skevroderkälla** - Välj källans input.
+* **Kollektiv** - Välj källans input.
+* **Vikt** - Procentandel av spakens omfång som används.
