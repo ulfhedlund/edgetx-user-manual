@@ -4,14 +4,14 @@
 
 I EdgeTX finns möjligheten att ange en specifik källa och trim för modellens gas (trottel). Följande inställningsmöjligheter finns:
 
-**Inverterad gas:** Om detta alternativ är aktiverat inverteras riktningen för den konfigurerade gaskanalen.
+**Omvänd gas:** Om detta alternativ är aktiverat inverteras riktningen för den konfigurerade gaskanalen.
 
-**Gaskälla:** Källan som används till gasen.
+**Källa:** Källan som används till gasen.
 
-**Trimma tomgång**: Om detta alternativ är aktiverat kommer gastrimmen endast att påverka den nedre delen av gasens omfång.
+**Trimma endast tomgång**: Om detta alternativ är aktiverat kommer gastrimmen endast att påverka den nedre delen av gasens omfång.
 
 {% hint style="info" %}
-Exempelvis, med **Trimma tomgång** aktiverad kan gasspaken i nedre läget ha ett värde -80 medan mittläget har värdet 0 och högsta läget värdet 100. Om **Trimma tomgång** i stället är inaktiverat kan gasspaken i nedre läget ha ett värde av -80 medan mittläget har värdet 20 och högsta läget värdet 100.&#x20;
+Till exempel: med **Trimma endast tomgång** aktiverad kan gasspaken i nedre läget ha ett värde -80 medan mittläget har värdet 0 och översta läget värdet 100. Om **Trimma endast tomgång** i stället är inaktiverat kan gasspaken i nedre läget ha ett värde av -80 medan mittläget har värdet 20 och översta läget värdet 100.&#x20;
 {% endhint %}
 
-**Gastrimmknapp:** The trim switch that will be used to trim the throttle. It is possible to substitute the throttle trim switch with the aileron, rudder, or elevator trim switches.
+**Trimmknapp:** Knappen som används för att trimma gasen. Det är möjligt att ersätta gasens trimmknapp med någon annan av radions trimmknappar, exempelvis de för skev-, sid- eller höjdrodren.
