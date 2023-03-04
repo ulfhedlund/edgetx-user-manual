@@ -1,6 +1,6 @@
 # Flyglägen
 
-<figure><img src="../../../.gitbook/assets/FM1.jpg" alt=""><figcaption><p>Flight Modes page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FM1.png" alt=""><figcaption><p>Flyglägen</p></figcaption></figure>
 
 Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are 9 possible flight modes to use, with Flight Mode 0 being the default flight mode.
 
@@ -8,7 +8,7 @@ The **Flight Mode** screen displays buttons for each flight mode. Flight mode bu
 
 **Check FM Trims:** When the check FM trims button is pressed, the trims for the current flight mode are temporarily disabled. This is used to test the impact of the current flight mode’s trims on the outputs.
 
-<figure><img src="../../../.gitbook/assets/FM2.jpg" alt=""><figcaption><p>Flight Mode configuration page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FM2.png" alt=""><figcaption><p>Inställningar för flyglägen</p></figcaption></figure>
 
 The flight mode conifiguration screen has the following options:
 
@@ -22,7 +22,7 @@ The flight mode conifiguration screen has the following options:
 
 **Trims:** Once the **Setup** button is selected, the trim setup screen will be shown.
 
-<figure><img src="../../../.gitbook/assets/FM3.jpg" alt=""><figcaption><p>Trims setup in the Flight Mode configuration page</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FM3.png" alt=""><figcaption><p>Trimminställningar för flyglägen</p></figcaption></figure>
 
 To configure the trims, select the trim that you want to configure to make sure that it is turned on (yellow). Then select the flight mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**) from the drop-down menu.
 
@@ -33,5 +33,5 @@ _Example 1:_ If you are configuring FM1 and set the value to =0, FM1 will have t
 _Example 2:_ If you are configuring FM1 and set the value to +0, FM1 will have the trim value of the same trim in FM0, plus any trim changes made while in FM1, In this case, changes made to the trim in FM1 do not affect the trim in FM0. However, changes to trim values FM0 will affect trim values in FM1.
 
 {% hint style="info" %}
-If the trim is turned off (white) on the Trims setup page, you will not be able to adjust it at all on the main screen.
+Om en trimm är avstängd (vit) under Trimmar, kan den trimmen _inte_ justeras från huvudvyn.
 {% endhint %}
