@@ -33,5 +33,5 @@ _Exempel 1:_ Om du konfigurerar FL1 och sätter värdet till =0, kommer trimmvä
 _Exempel 2:_ Om du konfigurerar FL1 och sätter värdet till +0, kommer trimmvärdet för FL1 vara detsamma som för FL0 _plus_ eventuellt trimmvärde för FL1. I detta fall kommer en ändring i trimm för FL1 inte påverka motsvarande trimm för FL1. Däremot kommer en ändring i trimm för FL0 att påverka trimmen för FL1.
 
 {% hint style="info" %}
-Om en trimm är avstängd (vit) under Trimmar, kan den trimmen _inte_ justeras från huvudvyn.
+Om en trimm är avstängd (vit) under Trimmar, kan den trimmen _inte_ justeras med trimmknapparna från huvudvyn.
 {% endhint %}
