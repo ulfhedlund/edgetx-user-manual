@@ -2,35 +2,35 @@
 
 <figure><img src="../../../.gitbook/assets/FM1.png" alt=""><figcaption><p>Flyglägen</p></figcaption></figure>
 
-Flight modes allow you to have different trim settings for each flight mode. Once multiple flight modes are configured, you can adjust the trim settings in each flight mode without affecting the trim settings in other flight modes (unless they are configured to do so). There are 9 possible flight modes to use, with Flight Mode 0 being the default flight mode.
+Flyglägen gör det möjligt att ha olika trimmar inställda för varje flygläge. När multipla flyglägen har konfigurerats kan trimminställningarna justeras för varje flygläge individuellt, utan att trimmarna för de andra flyglägena påverkas (om de konfigurerats att göra det). Det går att konfigurera upp till 9 olika flyglägen, numrerade från 0 till 8. Flygläge 0 är förvalt (default).
 
-The **Flight Mode** screen displays buttons for each flight mode. Flight mode buttons in yellow designate the current active flight mode. Selecting a flight mode button will take you to the configuration page for that flight mode.
+Skärmen **Flyglägen** har en knapp för varje flygläge. Aktivt flygläge är markerad med gult. När ett flygläge väljs, aktiveras en skärm med inställningsmöjligheter för detta flygläge.&#x20;
 
-**Check FM Trims:** When the check FM trims button is pressed, the trims for the current flight mode are temporarily disabled. This is used to test the impact of the current flight mode’s trims on the outputs.
+**Kolla FL-trimmar:** Denna knapp inaktiverar tillfälligt de trimmar som är inställda för aktuellt flygläge. Därigenom kan effekten av inställda trimmar testas.
 
-<figure><img src="../../../.gitbook/assets/FM2.png" alt=""><figcaption><p>Inställningar för flyglägen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/FM2.png" alt=""><figcaption><p>Konfiguration av flyglägen</p></figcaption></figure>
 
-The flight mode conifiguration screen has the following options:
+Skärmen för konfiguration av flyglägen har följande inställningar:
 
-**Name:** The custom name for the flight mode. If configured, this name will be shown on the lower center position of the main screen between the trims.
+**Namn:** Valbart namn för flygläget. Om ett namn anges kommer det att visas på radions huvudvy, längst ner i mitten mellan trimmarna.
 
-**Switch:** The trigger to enable that flight mode. It can be a switch, pot, telemetry, trim or logical switch.
+**Brytare:** Brytaren som aktiverar flygläget. Denna kan vara en brytare, ett vred, reglage, telemetrivärde eller en logisk brytare.
 
-**Fade in:** Gradually change the trim value when this flight mode is enabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
+**Tona in:** Gradvis ändra trimmvärdet när flygläget aktiveras. Ange tiden i sekunder (0.0 - 25.0) tills värdet ska vara uppnått.
 
-**Fade out:** Gradually change the trim value when this flight mode is disabled. Specify the time in seconds (0.0 - 25.0) until the value change is completed.
+**Tona ut:** Gradvis ändra trimmvärdet när flygläget inaktiveras. Ange tiden i sekunder (0.0 - 25.0) tills värdet ska vara uppnått.
 
-**Trims:** Once the **Setup** button is selected, the trim setup screen will be shown.
+**Trimmar:** När **Konfigurera** valts visas nedanstående skärm för inställningar av flyglägets trimmar.
 
 <figure><img src="../../../.gitbook/assets/FM3.png" alt=""><figcaption><p>Trimminställningar för flyglägen</p></figcaption></figure>
 
-To configure the trims, select the trim that you want to configure to make sure that it is turned on (yellow). Then select the flight mode (**0-8**) that will provide the initial trim value and modifier (**=** or **+**) from the drop-down menu.
+För att konfigurera trimmarna, välj den trimm du vill ändra för att säkerställa att den är aktiverad (gul). Välj sedan det flygläge som ska styra det initial trimmvärdet och en modifierare (**=** eller **+**) från drop-downmenyn.
 
-Modifier - there are two possible value modifiers **=** and **+.** The **=** modifier uses the trim value directly from the selected flight mode. The **+** modifier uses the trim value from the selected flight mode and then adds the trim value from the flight mode you are configuring.
+Modifierare - det finns två möjliga modifierare för trimmvärdena, **=** och **+.** Modifieraren **=** använder trimmvärdet direkt från det valda flygläget. Modifieraren **+** använder trimmvärdet från det valda flygläget och adderar sedan det trimmvärde som angetts för det flygläge som konfigureras.
 
-_Example 1:_ If you are configuring FM1 and set the value to =0, FM1 will have the trim value of the current value of the same trim in FM0. In this case, changes made to the trim in FM1 will also affect the trim in FM0 and vice-versa.
+_Exempel 1:_ Om du konfigurerar FL1 och sätter värdet till =0, kommer trimmvärdet för FL1 vara detsamma som för FL0. I detta fall kommer en ändring i trimm för FL0 att påverka motsvarande trimm för FL1, och vice versa.
 
-_Example 2:_ If you are configuring FM1 and set the value to +0, FM1 will have the trim value of the same trim in FM0, plus any trim changes made while in FM1, In this case, changes made to the trim in FM1 do not affect the trim in FM0. However, changes to trim values FM0 will affect trim values in FM1.
+_Exempel 2:_ Om du konfigurerar FL1 och sätter värdet till +0, kommer trimmvärdet för FL1 vara detsamma som för FL0 _plus_ eventuellt trimmvärde för FL1. I detta fall kommer en ändring i trimm för FL1 inte påverka motsvarande trimm för FL1. Däremot kommer en ändring i trimm för FL0 att påverka trimmen för FL1.
 
 {% hint style="info" %}
 Om en trimm är avstängd (vit) under Trimmar, kan den trimmen _inte_ justeras från huvudvyn.
