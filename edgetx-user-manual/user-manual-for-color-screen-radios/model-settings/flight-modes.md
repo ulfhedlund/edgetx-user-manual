@@ -26,7 +26,7 @@ Skärmen för konfiguration av flyglägen har följande inställningar:
 
 För att konfigurera trimmarna, välj den trimm du vill ändra för att säkerställa att den är aktiverad (gul). Välj sedan det flygläge som ska styra det initial trimmvärdet och en modifierare (**=** eller **+**) från drop-downmenyn.
 
-Modifierare - det finns två möjliga modifierare för trimmvärdena, **=** och **+.** Modifieraren **=** använder trimmvärdet direkt från det valda flygläget. Modifieraren **+** använder trimmvärdet från det valda flygläget och adderar sedan det trimmvärde som angetts för det flygläge som konfigureras.
+Modifierare - det finns två möjliga modifierare för trimmvärdena, **=** och **+.** Modifieraren **=** använder trimmvärdet direkt från det valda flygläget. Modifieraren **+** använder trimmvärdet från det valda flygläget och adderar sedan det trimmvärde som angetts för det flygläge som angetts.
 
 _Exempel 1:_ Om du konfigurerar FL1 och sätter värdet till =0, kommer trimmvärdet för FL1 vara detsamma som för FL0. I detta fall kommer en ändring i trimm för FL0 att påverka motsvarande trimm för FL1, och vice versa.
 
