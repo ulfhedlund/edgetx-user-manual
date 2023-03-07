@@ -3,45 +3,41 @@
 The **Inputs** screen of Model Settings is where you map your physical radio controls (for example: sticks, sliders, and pots) to a software input to be used by the radio. After the control has been mapped it is then possible to apply modifiers to the inputs such as a weight, offset or curve which will then be applied anywhere that input is used. Although it is possible to also assign switches as inputs, it is normally not needed as switch outputs seldomly need to be modified by a weight, offset or curve. By default, EdgeTX will automatically map your contoller sticks to Aileron, Elevator, Throttle, Rudder based on the default channel order defined in [Radio Setup.](../../radio-settings/radio-setup/)
 
 {% hint style="info" %}
-Your input channels may default to a different order based on the settings defined in [Radio Setup](../../radio-settings/radio-setup/).
+Den förinställda ordningen av radions input kan vara annorlunda än i bilderna nedan, beroende på inställningarna i [Radioinställningar](../../radio-settings/).
 {% endhint %}
 
-{% hint style="info" %}
-The Inputs section is also commonly referred to as "**Dual Rates"** as it was previously called this in earlier versions of OpenTX.
-{% endhint %}
-
-<figure><img src="../../../../.gitbook/assets/inputs.jpg" alt=""><figcaption><p>Inputs screen in Model Settings</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/input.png" alt=""><figcaption><p>Inputskärmen under Modellinställningar</p></figcaption></figure>
 
 Selecting the **+** **button** will create a new input and open the input configuration page. Selecting an existing input will give you the following options:
 
-* **Edit** - opens the input configuration page for that input line.
-* **Insert before** - Inserts a new input line before the selected input.
-* **Insert after**- Inserts a new input line after the selected input.
-* **Copy** - copies the selected input line.
-* **Move** - selects the input line to be moved. The input is moved using one of the paste commands after a new line is selected (i.e. cut & paste).
-* **Delete** - deletes the selected input line.
-* **Paste before** - pastes the copied or moved input line before the selected input line.
-* **Paste after** - pastes the copied or moved input line before the selected input line.
+* **Redigera** - opens the input configuration page for that input line.
+* **Addera före** - Inserts a new input line before the selected input.
+* **Addera efter**- Inserts a new input line after the selected input.
+* **Kopiera** - copies the selected input line.
+* **Flytta** - selects the input line to be moved. The input is moved using one of the paste commands after a new line is selected (i.e. cut & paste).
+* **Radera** - deletes the selected input line.
+* **Klistra in före** - pastes the copied or moved input line before the selected input line.
+* **Klistra in efter** - pastes the copied or moved input line before the selected input line.
 
-<figure><img src="../../../../.gitbook/assets/Inputs2.jpg" alt=""><figcaption><p>Input Configuration Page</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/Inputs2.png" alt=""><figcaption><p>Inställningar för en input</p></figcaption></figure>
 
 ### Input configuration page
 
-The input configuration page allows you to edit the input configuation parameters. To the right of the configuration parameters, you can see a live graph that shows how your configuration options will affect the slope of the input.
+The input configuration page allows you to edit the input configuration parameters. To the right of the configuration parameters, you can see a live graph that shows how your configuration options will affect the slope of the input.
 
-* **Input Name** - Name for the input. Four character are possible.
-* **Line Name** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
+* **Inputnamn** - Name for the input. Four character are possible.
+* **Radnamn** - Name of the individual line in the input. Multiple physical inputs can be mapped to one input by adding an additional input line under the input.
 
-<figure><img src="../../../../.gitbook/assets/inputs2.jpg" alt=""><figcaption><p>Example of multiple input lines under one input</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/inputs2.png" alt=""><figcaption><p>Exempel på multipla rader för en input</p></figcaption></figure>
 
-* **Source** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
-* **Weight** - Percentage value of the stick travel to use (often referred to as "rates").
+* **Källa** - The physical control used for the input. In addition to physical controls, you can also specify MAX (always returns 100), cyclics, trim switches, channel values and more. Moving the physical control after the source has been selected will automatically map it to that input.
+* **Vikt** - Percentage value of the stick travel to use (often referred to as "rates").
 * **Offset** - The value added to or subtracted from the input source.
-* **Switch** - The switch that activates the input line. If no switches are defined then it is always active.
-* **Curve** - Specifies the type of curve that will be used. The following curve options exist:
+* **Brytare** - The switch that activates the input line. If no switches are defined then it is always active.
+* **Kurva** - Specifies the type of curve that will be used. The following curve options exist:
   * **Diff** - Multiplies only the range above or below the middle (0) by the specified %.
   * **Expo** -The input value is changed exponentially. Increasing the % will result with a gentle slope near the middle(0). Decreasing the % will result in a steep slope near the middle (0). With a % of 0, the slope will be linear.
-  *   **Func** -
+  *   **Funk** -
 
       | Function | Slope Behavior                                                                                                                                     |
       | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -52,7 +48,7 @@ The input configuration page allows you to edit the input configuation parameter
       | f>0      | The range above the middle (0) is always +100. The range below the middle (0) is always 0. The output value will always be either 0 or +100.       |
       | f<0      | The range above the middle (0) is always 0. The range below the middle (0) is always -100. The output value will always be either 0 or -100.       |
       | \|f\|    | The range above the middle (0) is always +100. The range below the middle (0) is always -100. The output value will always be either +100 or -100. |
-  * **Cstm** - assigns a custom defined curve. See [Curves](../curves.md) for more information about custom defined curves.
+  * **Egen** - assigns a custom defined curve. See [Curves](../curves.md) for more information about custom defined curves.
 
 {% hint style="info" %}
 Values for weight, offset and curve % can also be defined by a configured global values Selecting the **GV** button will display a list of configured global values to select from.
@@ -60,7 +56,7 @@ Values for weight, offset and curve % can also be defined by a configured global
 
 When selecting the gear button at the bottom of the screen, the following option window will be displayed.
 
-<figure><img src="../../../../.gitbook/assets/inputs3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/inputs3.png" alt=""><figcaption></figcaption></figure>
 
 **Side** - Specifies the input range for which this line setting is valid. If you select **---**, it will be valid in the entire range of Source values. If you select **x>0**, it will be valid in the upper half of the value of Source. If you select **x<0**, it will be valid in the lower half of the value of Source.
 
