@@ -8,7 +8,7 @@ Följande inställningar kan konfigureras för sensorer:
 * **Enhet:** Sensorns enhet. Enheten används när sensorns värde visas eller läses upp.
 * **Precision:** Specificerar antalet decimalsiffror när sensorvärdet visas på skärmen. Värdet trunkeras (klipps) baserat på denna inställning.
 * **Skalfaktor:** Specificerar ett värde med vilket sensorns värde multipliceras. Detta kan behöva göras för vissa sensorer.
-* **Offset:** Specifiecerar en offset som adderas till sensorns värde.
+* **Offset:** Specificerar en offset som adderas till sensorns värde.
 * **Auto offset:** Om aktiverad, kommer första mottagna värde att användas som offset. Det går att använda [Återställ telemetri](../../reset-telemetry.md) för att återställa offsetvärdet för en redan konfigurerad sensor.
 * **Positiv:** When selected, the value of the sensor will be displayed only when it is a positive number. Displays zero when the sensor value becomes a negative number.
 * **Filter:** When selected, the sensor value becomes a rolling average of the last 5 received values.
