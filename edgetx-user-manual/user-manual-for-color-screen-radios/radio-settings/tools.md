@@ -28,7 +28,7 @@ Genom att trycka **ENT** och skrolla vänster eller höger kan T-värdet ändras
 
 #### Modellguiden (Wizard Loader)
 
-<figure><img src="../../../.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>Plane Wizard</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/wizard2.png" alt=""><figcaption><p>Modellguiden för flygplan</p></figcaption></figure>
 
 Modellguiden hjälper dig att göra inställningar för en ny modell av en viss typ: flygplan, segelflygplan, quadkopter eller helikopter. När modelltypen väl har valts, tar guiden dig igenom ett antal frågebaserade steg för olika inställningar av modellen, baserade på de svar som ges.
 
