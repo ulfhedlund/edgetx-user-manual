@@ -1,14 +1,14 @@
 # Radioinställningar
 
-The Radio **Settings** section contains all the options to configure your radio. Across the top of the page you will see icons that will take you to different pages of radio settings when selected. The default screen for the radio settings is the [Tools ](tools.md)screen.
+Skärmen med **Radioinställningar** innehåller alla inställningar för konfiguration av radion. Längst upp visas ikoner som när de väljs leder till olika sidor med inställningar för radion. Den förvalda sidan som visas är [Verktyg](tools.md).
 
-Icons at the top of the radio settings screen include (in order from left to right):
+Ikonerna längst upp på skärmen är följande (från vänster till höger):
 
-* [Tools](tools.md)
-* [SD Card](sd-card.md)
-* [Radio Setup](radio-setup/)
-* [Themes](themes.md)
-* [Global Functions](global-functions.md)
-* [Trainer](../model-settings/model-setup/trainer.md)
-* [Hardware](hardware.md)
+* [Verktyg](tools.md)
+* [SD-kort](sd-card.md)
+* [Inställningar](radio-setup/)
+* [Teman](themes.md)
+* [Globala funktioner](global-functions.md)
+* [Lärare](trainer.md)
+* [Hårdvara](hardware.md)
 * [Version](version.md)

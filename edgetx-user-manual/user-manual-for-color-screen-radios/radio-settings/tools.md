@@ -1,45 +1,39 @@
 # Verktyg
 
-<figure><img src="../../../.gitbook/assets/tools.jpg" alt=""><figcaption><p>Tools Screen</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/tools.png" alt=""><figcaption><p>Skärmen för Verktyg</p></figcaption></figure>
 
-The **Tools** page in Radio Settings is where you can select Lua script-based tools for execution. Lua scripts that are located on the SD card in the **Tools** folder will be listed here. Selecting a tool will execute it in full-screen mode. By default, EdgeTX includes several tools. Other tools can be downloaded and added to the SD card as well. The following tools are included in the default EdgeTX SD card.
+På radioinställningarnas sida för **Verktyg** kan ett antal Lua-baserade skript väljas och köras. De Lua-skript som visas är de som finns på radions SD-kort i mappen **Tools**. När ett skript väljs körs det i helskärmsläge. Det finns några Lua-skript som är standard i EdgeTX och följer med vid installation men ytterligare verktyg kan laddas ner och läggas till på SD-kortet.&#x20;
 
-#### Model Locator (by RSSI)
+Följande verktyg är inkluderade som standard i EdgeTX:
 
-<figure><img src="../../../.gitbook/assets/rssi.jpg" alt=""><figcaption><p>Model Locator tool</p></figcaption></figure>
+#### Lokalisera modell (med RSSI)
 
-The Model Locator tool helps to find a lost model based on the RSSI (if still available). The widget produces an audio representation (variometer style) of the RSSI from the lost model. The widget will also display the RSSI in a visible colorized bar (0-100%).
+<figure><img src="../../../.gitbook/assets/rssi.png" alt=""><figcaption><p>Verktyget Lokalisera modell</p></figcaption></figure>
 
-#### Spectrum (INT)
+Modelllokaliseraren kan användas som hjälpmedel för att hitta en försvunnen modell, baserat på signalstyrkan (RSSI), om en signal från modellen fortfarande finns. Widgeten skapar en ljudsignal (likt en variometer) och visar RSSI-värdet i färgsatta staplar (0-100%), vilket kan användas för att pendla in riktningen till modellen. Om en riktning tas ut från två eller fler olika platser kan modellens position trianguleras, så att en mer exakt position kan estimeras för den.
 
-<figure><img src="../../../.gitbook/assets/spectrum-int.jpg" alt=""><figcaption><p>Spectrum Analyzer (INT) tool</p></figcaption></figure>
+#### Spektrum (INT)
 
-The Spectrum Analyzer tool will show the strength of signals in the 2.4GHz band. It uses the internal MULTI-Module as a 2.4GHz spectrum analyzer.
+<figure><img src="../../../.gitbook/assets/spectrum-int.jpg" alt=""><figcaption><p>Verktyget för spektrumanalys (INT)</p></figcaption></figure>
 
-The display shows frequencies on the 2.4GHz spectrum, from 2400MHz to 2480MHz. The X (horizontal) axis shows the frequency in MHz and the Y (vertical) axis shows relative signal strength.
+Verktyget för spektrumanalys visar signalstyrkan i spektrumbandet 2.4GHz. Verktyget använder den interna MULTI-modulen för spektrumanalysen.
 
-**T:** Frequency at the center of the plot (fixed at 2440MHz)\
-**S:** Bandwidth of the plot (fixed at 80MHz)\
-**T:** Position of the cursor (vertical line)
+Displayen visar frekvenser kring 2.4GHz, från 2400MHz till 2480MHz. Den horisontella axeln visar frekvensen i MHz och den vertikala axeln visar den relativa signalstyrkan.
 
-Pressing **ENT** and scrolling left and right allows the **T** value to be changed, which will move the vertical line to highlight a specific frequency.
+**T:** Frekvensen för diagrammets mitt (låst till 2440MHz)\
+**S:** Bandbredd för diagrammet (låst till 80MHz)\
+**T:** Markörens position (den vertikala linjen)
 
-#### Wizard Loader
+Genom att trycka **ENT** och skrolla vänster eller höger kan T-värdet ändras, vilket flyttar den vertikala linjen till vald frekvens.
 
-<div>
-
-<figure><img src="../../../.gitbook/assets/wizard1.jpg" alt=""><figcaption><p>Wizard Loader tool</p></figcaption></figure>
-
- 
+#### Modellguiden (Wizard Loader)
 
 <figure><img src="../../../.gitbook/assets/wizard2.jpg" alt=""><figcaption><p>Plane Wizard</p></figcaption></figure>
 
-</div>
+Modellguiden hjälper dig att göra inställningar för en ny modell av en viss typ: flygplan, segelflygplan, quadkopter eller helikopter. När modelltypen väl har valts, tar guiden dig igenom ett antal frågebaserade steg för olika inställningar av modellen, baserade på de svar som ges.
 
-The Wizard Loader tool assists you in setting up a new model by running a setup wizard for a particular model type. Once the model type is selected, the wizard will take you through a series of prompts and then configure your selected model based on the information provided.
-
-_**NOTE: The wizard does not create a new model, it only configures the currently selected model. You must manually create a new model first and then run the wizard. If you run this wizard on an already configured model, it will overwrite your model settings!**_
+_**OBS! Modellguiden skapar inte en ny modell utan konfigurerar den aktiva (valda) modellen. Skapa först manuellt en ny modell och kör därefter modellguiden. Om modellguiden körs på en redan konfigurerad modell kommer inställningarna för den modellen att skrivas över!**_
 
 {% hint style="info" %}
-Additional EdgeTX compatible Lua scripts can be downloaded from: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
+Ytterligare Lua-skript för EdgeTX kan laddas ner från: [https://github.com/EdgeTX/lua-scripts](https://github.com/EdgeTX/lua-scripts)
 {% endhint %}
