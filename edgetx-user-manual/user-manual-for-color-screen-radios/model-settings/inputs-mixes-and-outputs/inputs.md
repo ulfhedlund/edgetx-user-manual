@@ -41,7 +41,7 @@ The input configuration page allows you to edit the input configuration paramete
 
       | Function | Slope Behavior                                                                                                                                     |
       | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-      | ---      | The slope will be linear.                                                                                                                          |
+      | ---      | En linjär (rätlinjig) kurva.                                                                                                                       |
       | X>0      | The range below the middle (0) is always 0. Above the middle (0), the slope is linear.                                                             |
       | X<0      | The range above the middle (0) is always 0. Below the middle (0), the slope is linear.                                                             |
       | \|X\|    | The range above the middle (0), the reaction is linear. The sign is inverted in the range below the middle (0). The curve draws a V-shaped graph.  |
